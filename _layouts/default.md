@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 	<html>
 		<head>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 			<title>{{ page.title }}</title>
+			<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css"/>
       <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.blue_grey-light_green.min.css" />
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="stylesheet" type="text/css" href="/css/main.css"/>
 		</head>
 		<body>
 			<nav>
@@ -14,11 +16,11 @@
 	        		<li><a href="/blog">Blog</a></li>
 	    		</ul>
 			</nav>
-			<div class="container">
+			<div id="container">
 
 			{{ content }}
 
-			</div><!-- /.container -->
+			</div>
 			<footer>
 	    		<ul>
 	        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
