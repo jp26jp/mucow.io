@@ -17,9 +17,9 @@ need to do the following:
 
 ```xml
 <pageItemHTML>
-<![CDATA[
-<img src="http://example.com/logo.jpg" alt="My Logo"/>
-]]>
+  <![CDATA[
+    <img src="http://example.com/logo.jpg" alt="My Logo"/>
+  ]]>
 </pageItemHTML>
 ```
 
