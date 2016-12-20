@@ -2,7 +2,7 @@
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
+      <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.light_green-lime.min.css" />
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
