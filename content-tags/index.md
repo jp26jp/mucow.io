@@ -15,11 +15,13 @@ to wrap any HTML content you are inserting into the page. For example,
 if you want to place an image in the `<pageItemHTML>` tag, you'll
 need to do the following:
 
-  <pageItemHTML>
-	<![CDATA[
-	<img src="http://example.com/logo.jpg" alt="My Logo"/>
-	]]>
-  </pageItemHTML>
+```xml
+<pageItemHTML>
+<![CDATA[
+<img src="http://example.com/logo.jpg" alt="My Logo"/>
+]]>
+</pageItemHTML>
+```
 
 *Note that for any HTML elements, you can use the HTML class `actAsDiv`
 to indicate that you want that element to be a block level element.*
@@ -90,6 +92,7 @@ HTMLWidget tag:
     supportsGlobalAndOptionContentTags="true"
 
 which will enable you to write code that resembles the following:
+
 ```xml
 <parameters>
     <bool name="incEMail" defaultValue="true">
